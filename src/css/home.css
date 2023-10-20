@@ -32,8 +32,8 @@
 }
 
 
-/* @container screen and (max-width:480px){
-    .board{
-        flex-flow: column;
+@media (max-width:480px){
+    .on-board{
+        max-width: 100%;
     }
-} */
+}
